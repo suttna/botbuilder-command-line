@@ -10,6 +10,7 @@
     "watch": "tsc --watch",
     "lint": "tslint 'src/**/*.ts'",
     "lint:fix": "tslint 'src/**/*.ts' --fix",
+    "ci": "yarn build && yarn test",
     "postinstall": "postinstall-build lib"
   },
   "dependencies": {
