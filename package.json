@@ -2,6 +2,7 @@
   "name": "botbuilder-command-line",
   "version": "1.0.0",
   "main": "lib/index.js",
+  "types": "lib/library.d.ts",
   "license": "MIT",
   "scripts": {
     "test": "node_modules/.bin/jest --config jest.json --forceExit",
