@@ -4,6 +4,8 @@
   "main": "lib/index.js",
   "types": "lib/library.d.ts",
   "license": "MIT",
+  "author": "Martin Fernandez <fmartin91@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "test": "node_modules/.bin/jest --config jest.json --forceExit",
     "build": "yarn lint && yarn build-ts",
