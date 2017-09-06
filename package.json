@@ -12,7 +12,8 @@
     "lint": "tslint 'src/**/*.ts'",
     "lint:fix": "tslint 'src/**/*.ts' --fix",
     "ci": "yarn build && yarn test",
-    "postinstall": "postinstall-build lib"
+    "postinstall": "postinstall-build lib",
+    "prepublish": "yarn build"
   },
   "dependencies": {
     "botbuilder": "^3.9.0",
