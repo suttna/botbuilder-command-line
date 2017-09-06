@@ -1,0 +1,8 @@
+node_modules
+lib
+
+yarn-error.log
+
+.tags*
+
+v8-compile-*

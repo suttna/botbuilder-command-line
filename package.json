@@ -1,0 +1,30 @@
+{
+  "name": "botbuilder-customer-service",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node_modules/.bin/jest --config jest.json --forceExit",
+    "build": "yarn lint && yarn build-ts",
+    "build-ts": "tsc",
+    "watch": "tsc --watch",
+    "lint": "tslint 'src/**/*.ts'",
+    "lint:fix": "tslint 'src/**/*.ts' --fix",
+    "postinstall": "postinstall-build lib"
+  },
+  "dependencies": {
+    "botbuilder": "^3.9.0",
+    "minimist": "^1.2.0",
+    "postinstall-build": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^20.0.7",
+    "@types/node": "^8.0.20",
+    "jest": "^20.0.4",
+    "bot-tester": "^2.0.2",
+    "ts-jest": "^20.0.10",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.6.0",
+    "typescript": "^2.4.2"
+  }
+}
