@@ -14,13 +14,11 @@
     "lint": "tslint 'src/**/*.ts'",
     "lint:fix": "tslint 'src/**/*.ts' --fix",
     "ci": "yarn build && yarn test",
-    "postinstall": "postinstall-build lib",
     "prepublish": "yarn build"
   },
   "dependencies": {
     "botbuilder": "^3.9.0",
-    "minimist": "^1.2.0",
-    "postinstall-build": "^5.0.1"
+    "minimist": "^1.2.0"
   },
   "devDependencies": {
     "@types/jest": "^20.0.7",
