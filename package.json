@@ -1,6 +1,6 @@
 {
   "name": "botbuilder-command-line",
-  "version": "1.0.1-beta.7",
+  "version": "1.0.1-beta.8",
   "main": "lib/index.js",
   "types": "lib/library.d.ts",
   "license": "MIT",
