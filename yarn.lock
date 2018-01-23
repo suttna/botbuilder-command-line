@@ -434,9 +434,9 @@ boom@5.x.x:
   dependencies:
     hoek "4.x.x"
 
-bot-tester@2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/bot-tester/-/bot-tester-2.0.2.tgz#cf109330512d186fa38cb2308aead24428dddd82"
+bot-tester@3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/bot-tester/-/bot-tester-3.3.2.tgz#671b42b4f3014d4788b4374700de7eecbd5a5246"
   dependencies:
     bluebird "^3.5.0"
     botbuilder "^3.8.4"
