@@ -26,7 +26,7 @@
     "jest": "22.1.4",
     "bot-tester": "3.4.2",
     "ts-jest": "22.0.2",
-    "ts-node": "4.1.0",
+    "ts-node": "5.0.1",
     "tslint": "5.9.1",
     "typescript": "2.7.2"
   }
