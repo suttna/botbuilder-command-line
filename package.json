@@ -22,7 +22,7 @@
   "devDependencies": {
     "@types/jest": "22.1.0",
     "@types/node": "8.9.4",
-    "@types/minimist": "1.2.0",
+    "@types/minimist": "1.2.2",
     "jest": "22.1.4",
     "bot-tester": "3.4.2",
     "ts-jest": "22.0.2",
